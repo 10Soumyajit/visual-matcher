@@ -26,11 +26,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the project
 COPY . .
 
-# Make uploads dir if app uses it
-RUN mkdir -p static/uploads
+    # Make required directories
+RUN mkdir -p static/uploads data/product_images
+
+# Download sample data and build index on container start
+RUN python setup_data.py
 
 # Expose the port Spaces expects (7860 is commonly used in HF Spaces)
 EXPOSE 7860
 
-# Use waitress to serve the Flask app; adjust if you prefer python app.py
-CMD ["waitress-serve", "--host=0.0.0.0", "--port=7860", "app:app"]
+# Use waitress to serve the Flask app
+CMD ["waitress-serve", "--host=0.0.0.0", "--port=7860", "--call", "app:create_app"]
