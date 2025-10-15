@@ -1,0 +1,42 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Visual Product Matcher</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-4">
+    <h2 class="mb-3">Visual Product Matcher</h2>
+
+    <div class="card mb-3 p-3">
+      <form id="uploadForm">
+        <div class="mb-2">
+          <label class="form-label">Upload an image</label>
+          <input class="form-control" type="file" name="file" accept="image/*">
+        </div>
+        <div class="mb-2">
+          <label class="form-label">Or paste image URL</label>
+          <input class="form-control" type="url" name="image_url" placeholder="https://...">
+        </div>
+        <button type="submit" class="btn btn-primary">Find Similar</button>
+        <div id="status" class="mt-2 text-muted" style="display:none">Searching...</div>
+      </form>
+    </div>
+
+    <div id="resultsArea" style="display:none">
+      <h5>Query Image</h5>
+      <img id="queryImg" src="" alt="query" style="max-width:250px; display:block" class="mb-3">
+
+      <h5>Top results</h5>
+      <div id="results" class="row g-3"></div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/static/main.js"></script>
+</body>
+</html>
