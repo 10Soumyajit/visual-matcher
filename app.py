@@ -21,13 +21,26 @@ app = Flask(__name__, static_folder="static", template_folder="templates")
 
 # ---- Load model ----
 print("Loading CLIP model...")
+import sys
 from PIL import Image
 import torch
 from transformers import CLIPProcessor, CLIPModel
-device_type = "cuda" if torch.cuda.is_available() else "cpu"
-model = CLIPModel.from_pretrained('openai/clip-vit-base-patch32')
-processor = CLIPProcessor.from_pretrained('openai/clip-vit-base-patch32')
-print(f"Model loaded on {device_type}.")
+
+try:
+    device_type = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Using device: {device_type}")
+    print(f"Cache directory: {os.getenv('TRANSFORMERS_CACHE', 'default cache location')}")
+    
+    model = CLIPModel.from_pretrained('openai/clip-vit-base-patch32', 
+                                    local_files_only=False, 
+                                    cache_dir='/cache')
+    processor = CLIPProcessor.from_pretrained('openai/clip-vit-base-patch32',
+                                            local_files_only=False,
+                                            cache_dir='/cache')
+    print(f"Model loaded successfully on {device_type}.")
+except Exception as e:
+    print(f"Error loading model: {str(e)}", file=sys.stderr)
+    raise
 
 # ---- Utility functions ----
 def blob_to_np(blob):

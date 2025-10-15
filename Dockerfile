@@ -17,6 +17,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxext6 \
     && rm -rf /var/lib/apt/lists/*
 
+# Create cache directory and set permissions
+ENV TRANSFORMERS_CACHE=/cache
+RUN mkdir -p /cache && chmod 777 /cache
+
 # Copy only requirements first for better caching
 COPY requirements.txt .
 
