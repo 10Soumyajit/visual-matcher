@@ -1,37 +1,41 @@
-# Visual Product Matcher
+# Visual Product Matcher 🔍
 
-This Space demonstrates a visual similarity search system for fashion products using the CLIP model.
+This Space demonstrates a visual similarity search system for fashion products using CLIP (Contrastive Language-Image Pre-Training) model. The system helps users find visually similar fashion products from our curated database.
 
-## Features
+## 🌟 Features
 
-- Upload your own image or provide an image URL
-- Find visually similar products from the database
-- View product details and metadata
-- Real-time image processing and similarity search
+- **Visual Search**: Upload images or provide URLs to find similar products
+- **Pre-indexed Database**: Fast similarity search using pre-computed CLIP embeddings
+- **Rich Metadata**: Detailed product information including category, type, and color
+- **Real-time Processing**: Instant results using efficient image processing
 
-## How to Use
+## 🎯 How to Use
 
-1. Open the web interface
-2. Choose one of two options:
-   - Upload an image file from your device
-   - Enter the URL of an image
-3. Click "Search" to find similar products
-4. View the results with similarity scores and product details
+1. Visit the web interface
+2. Choose your search method:
+   - 📤 **Upload an Image**: Click "Choose File" to upload from your device
+   - 🔗 **Image URL**: Paste a direct link to any fashion image
+3. Click "Search" to discover similar products
+4. Browse results sorted by similarity score
 
-## Technical Details
+## 🛍️ Product Categories
 
-- **Model**: OpenAI's CLIP (clip-vit-base-patch32)
-- **Backend**: Flask + Waitress
-- **Image Processing**: PIL
-- **Similarity Search**: Cosine similarity on CLIP embeddings
-- **Database**: SQLite with pre-computed embeddings
+Our database includes various fashion items:
+- 👟 Footwear (Sports shoes, Casual shoes)
+- 👕 Apparel (T-shirts, Shirts, Pants)
+- 👜 Accessories
 
-## Example Queries
+## 🔧 Technical Stack
 
-Try searching with:
-- Pictures of shoes
-- Clothing items
-- Fashion accessories
+- **ML Model**: OpenAI's CLIP (clip-vit-base-patch32)
+- **Framework**: Flask with Waitress WSGI server
+- **Image Processing**: PIL (Python Imaging Library)
+- **Database**: SQLite3 with optimized embeddings
+- **Deployment**: Docker container on Hugging Face Spaces
 
-## License
+## 📝 Note
+
+This demo uses a curated dataset of fashion products with pre-computed embeddings for optimal performance.
+
+## 📜 License
 MIT License

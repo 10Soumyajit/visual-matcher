@@ -64,9 +64,9 @@ visual-matcher/
    pip install -r requirements.txt
    ```
 
-4. Download sample data and build the index:
+4. Run the application:
    ```bash
-   python setup_data.py
+   python app.py
    ```
    - Windows:
      ```bash

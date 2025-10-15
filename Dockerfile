@@ -27,10 +27,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
     # Make required directories
-RUN mkdir -p static/uploads data/product_images
-
-# Download sample data and build index on container start
-RUN python setup_data.py
+RUN mkdir -p static/uploads
 
 # Expose the port Spaces expects (7860 is commonly used in HF Spaces)
 EXPOSE 7860
