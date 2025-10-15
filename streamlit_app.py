@@ -22,14 +22,17 @@ if 'model' not in st.session_state:
 if 'processor' not in st.session_state:
     st.session_state.processor = None
 
-@st.cache_resource
+@st.cache_resource(show_spinner="Loading CLIP model...")
 def load_model():
     try:
-        device = "cuda" if torch.cuda.is_available() else "cpu"
+        # Force CPU to avoid GPU memory issues in cloud deployment
+        device = "cpu"
         model = CLIPModel.from_pretrained(
             "openai/clip-vit-base-patch32",
             local_files_only=False,
-            resume_download=True
+            resume_download=True,
+            low_cpu_mem_usage=True,
+            torch_dtype=torch.float32
         ).to(device)
         processor = CLIPProcessor.from_pretrained(
             "openai/clip-vit-base-patch32",
