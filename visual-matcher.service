@@ -1,0 +1,13 @@
+[Unit]
+Description=Visual Matcher Flask Application
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/visual-matcher
+Environment="PATH=/home/ubuntu/visual-matcher/venv/bin"
+ExecStart=/home/ubuntu/visual-matcher/venv/bin/python app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
