@@ -1,18 +1,19 @@
-# app.py (Updated to show product category)
+# app.py (Updated to use transformers directly)
 import os
 import io
 import sqlite3
 import time
 import requests
+import torch
 import numpy as np
 from flask import Flask, request, render_template, jsonify, send_from_directory
 from PIL import Image
-from sentence_transformers import SentenceTransformer
+from transformers import CLIPProcessor, CLIPModel
 
 # ---- Configuration ----
 UPLOAD_DIR = "static/uploads"
-DB = "data/products.db"  # Updated to match build_index.py path
-MODEL_NAME = "clip-ViT-B-32"
+DB = "data/products.db"
+MODEL_ID = "openai/clip-vit-base-patch32"
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 

@@ -7,8 +7,6 @@ __pycache__/
 venv/
 
 # Application data
-data/product_images/
-data/products.db
 static/uploads/
 
 # VS Code
