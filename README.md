@@ -9,6 +9,8 @@ app_file: app.py
 pinned: false
 ---
 
+**Hosted App Link** : https://visual-matcher-fak3ajb6ycnxvbptgg3xmq.streamlit.app/
+
 # Visual Matcher
 
 A Flask-based web application that uses CLIP (Contrastive Language-Image Pre-Training) to perform visual similarity search across a product database. The application allows users to find visually similar products by either uploading an image or providing an image URL.
