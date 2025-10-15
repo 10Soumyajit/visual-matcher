@@ -1,0 +1,61 @@
+ProductId,Gender,Category,SubCategory,ProductType,Colour,Usage,ProductTitle,Image,ImageURL
+1636,Men,Footwear,Shoes,Sports Shoes,White,Sports,Nike Men Air Zoom Century Shoes,1636.jpg,http://assets.myntassets.com/v1/images/style/properties/7c80fca789c5c1863a4080d7ed57acf0_images.jpg
+1637,Men,Footwear,Shoes,Sports Shoes,White,Sports,Nike Men White Cricket Shoes,1637.jpg,http://assets.myntassets.com/v1/images/style/properties/0ac13b20762f7542baadcb2472855437_images.jpg
+1653,Men,Footwear,Shoes,Sports Shoes,Brown,Sports,Reebok Men's Ventilator Ubiq Shoe,1653.jpg,http://assets.myntassets.com/v1/images/style/properties/349e9cdd07258c3f4254065dcad69c3e_images.jpg
+1654,Men,Footwear,Shoes,Sports Shoes,White,Sports,Reebok Men's Frisker LP Shoe,1654.jpg,http://assets.myntassets.com/v1/images/style/properties/271493f761fcb4583542bad929fb3d99_images.jpg
+1806,Men,Footwear,Sandal,Sandals,Brown,Casual,Quechua Men Arpenaz Brown Sandal,1806.jpg,http://assets.myntassets.com/v1/images/style/properties/1e404f8311c96db483657b8ef4113d56_images.jpg
+1831,Men,Footwear,Shoes,Sports Shoes,Black,Sports,Nike Men's Air Impetus Shoe,1831.jpg,http://assets.myntassets.com/v1/images/style/properties/2b7f6813cc0aebb2e517ddee5cf57830_images.jpg
+1836,Men,Footwear,Shoes,Sports Shoes,Silver,Sports,Nike Air Visi Sleek Shoes,1836.jpg,http://assets.myntassets.com/v1/images/style/properties/cae015b083e7581db36c6df436b7ef80_images.jpg
+2211,Men,Footwear,Sandal,Sandals,Navy Blue,Casual,Puma Men Trek Navy Blue Floater,2211.jpg,http://assets.myntassets.com/v1/images/style/properties/489285fce42ff6b4a5d6be37c26a971d_images.jpg
+2218,Men,Footwear,Sandal,Sandals,Black,Casual,Puma Men F1 Black Sandal,2218.jpg,http://assets.myntassets.com/v1/images/style/properties/c0d7bee21dcc124c3254cfda13193d7f_images.jpg
+2219,Men,Footwear,Shoes,Casual Shoes,Black,Casual,ADIDAS Men's Black Shoe,2219.jpg,http://assets.myntassets.com/v1/images/style/properties/11638bf2032ce289f91e53f6696594ed_images.jpg
+2220,Men,Footwear,Sandal,Sandals,Black,Sports,Puma Men Carbon Black Sandal,2220.jpg,http://assets.myntassets.com/v1/images/style/properties/c7292fc1fcc934dd9a693a136640bd47_images.jpg
+2227,Men,Footwear,Sandal,Sandals,Grey,Sports,Puma Men Gypsy Grey Sandal,2227.jpg,http://assets.myntassets.com/v1/images/style/properties/c691cbf2c611b9e0f9af6d11ef2046af_images.jpg
+2399,Men,Footwear,Shoes,Casual Shoes,Black,Casual,Red Tape Black Men's Semi Casual Shoe,2399.jpg,http://assets.myntassets.com/v1/images/style/properties/0eac399dea02f88af3e4775f38a8924b_images.jpg
+2477,Men,Footwear,Shoes,Sports Shoes,Blue,Sports,Nike Men's LunarFly Blue Shoe,2477.jpg,http://assets.myntassets.com/v1/images/style/properties/2aaec62ff9756dab42e78315b35505e5_images.jpg
+2504,Men,Footwear,Shoes,Casual Shoes,White,Casual,Numero Uno Men's Casual White Canvas Shoe,2504.jpg,http://assets.myntassets.com/v1/images/style/properties/0f7f710f647111940975e75aa0303fe8_images.jpg
+2610,Women,Footwear,Shoes,Heels,Black,Casual,Carlton London Women Stylish Black Flats,2610.jpg,http://assets.myntassets.com/v1/images/style/properties/938912f5e6e0e4ec1b3c75c556410768_images.jpg
+2611,Women,Footwear,Shoes,Heels,Gold,Casual,Carlton London Women Stylish Gold Flats,2611.jpg,http://assets.myntassets.com/v1/images/style/properties/aa9703a664cfc1493cc14a0eab2af64b_images.jpg
+2616,Women,Footwear,Shoes,Flats,Gold,Sports,Carlton London Women Gold Wedge Sandal,2616.jpg,http://assets.myntassets.com/v1/images/style/properties/9dc47ec74ce6e5a62d67cbcdbd89898d_images.jpg
+2618,Women,Footwear,Shoes,Flats,Silver,Casual,Carlton London Women Silver Wedge Sandal,2618.jpg,http://assets.myntassets.com/v1/images/style/properties/1133e704c0d02e19ac7b09685788aa40_images.jpg
+2626,Women,Footwear,Shoes,Flats,Red,Casual,Carlton London Women Red Wedge Sandal,2626.jpg,http://assets.myntassets.com/v1/images/style/properties/ff791dc3bb5a4fba08b20d10e3918814_images.jpg
+2627,Women,Footwear,Shoes,Flats,Silver,Casual,Carlton London Women Wedge Silver Sandal,2627.jpg,http://assets.myntassets.com/v1/images/style/properties/a2a3d03e64b5041ab052d5a6b10d282a_images.jpg
+2628,Women,Footwear,Shoes,Flats,Gold,Casual,Carlton London Women Four Strapped Gold Sandal,2628.jpg,http://assets.myntassets.com/v1/images/style/properties/865a39d6f7e6d219f888220b452c7239_images.jpg
+2629,Women,Footwear,Shoes,Flats,Black,Casual,Carlton London Women Four Strapped Black Sandal,2629.jpg,http://assets.myntassets.com/v1/images/style/properties/3c1282e51eb6c43ff789db59376f9c02_images.jpg
+2691,Boys,Apparel,Bottomwear,Shorts,Blue,Casual,Disney Kids Boy's Mickey Blue Denim Kidswear,2691.jpg,http://assets.myntassets.com/v1/images/style/properties/afec73c71df4c7f38b4ec3b8db63570f_images.jpg
+2693,Boys,Apparel,Topwear,Shirts,Yellow,Casual,Disney Kids Boy's Yellow Kidswear,2693.jpg,http://assets.myntassets.com/v1/images/style/properties/0998a5e6664366d578a3b2e3b3a3d172_images.jpg
+2694,Boys,Apparel,Topwear,Shirts,Red,Casual,Disney Kids Boy's Red Twofur Layered Kidswear,2694.jpg,http://assets.myntassets.com/v1/images/style/properties/a708588940cf342ea8926b811ac9ce42_images.jpg
+2695,Boys,Apparel,Topwear,Tshirts,White,Casual,Disney Kids Boy's Baby Mickey Surf Kidswear,2695.jpg,http://assets.myntassets.com/v1/images/style/properties/58bd470bd54ab421bf619b57010dbc35_images.jpg
+2697,Girls,Apparel,Dress,Dresses,Blue,Casual,Disney Kids Girl's Blue Pooh Kidswear,2697.jpg,http://assets.myntassets.com/v1/images/style/properties/07b19ca4b675693d79f55457c301d4bf_images.jpg
+2699,Girls,Apparel,Dress,Dresses,Pink,Casual,Disney Kids Girls Disney girl pink pooh top Kidswear,2699.jpg,http://assets.myntassets.com/v1/images/style/properties/b0adc32abb112ca04fbd6cd77c3951fa_images.jpg
+2700,Girls,Apparel,Topwear,Tops,White,Casual,Disney Kids Girl's White Kidswear,2700.jpg,http://assets.myntassets.com/v1/images/style/properties/d2c388bcd6a795e0d0cea56392d352a6_images.jpg
+2701,Girls,Apparel,Topwear,Tops,Yellow,Casual,Disney Kids Girl's Yellow Daisy Kidswear,2701.jpg,http://assets.myntassets.com/v1/images/style/properties/9f0369e7d1bb5beabf1071dcd6f15867_images.jpg
+2702,Girls,Apparel,Topwear,Shirts,Blue,Casual,Disney Kids Girl's Blue Check Kidswear Shirt,2702.jpg,http://assets.myntassets.com/v1/images/style/properties/9b347b32ebb06258003a14103ac0b699_images.jpg
+2703,Girls,Apparel,Topwear,Tops,Pink,Casual,Disney Kids Girl's Check Pink Kidswear,2703.jpg,http://assets.myntassets.com/v1/images/style/properties/6d58c5c0a0a3a7a57153bf7f91af4e10_images.jpg
+2704,Girls,Apparel,Dress,Dresses,White,Casual,Disney Kids Girl's White Pooh Kidswear,2704.jpg,http://assets.myntassets.com/v1/images/style/properties/94e188c83a2bb83e8744db8e103808d8_images.jpg
+2705,Girls,Apparel,Dress,Dresses,Blue,Casual,Disney Kids Girl's Blue Pooh Blouse Kidswear,2705.jpg,http://assets.myntassets.com/v1/images/style/properties/7ad1a1f284cd3f20793137fb1d3f1adc_images.jpg
+2706,Girls,Apparel,Topwear,Tops,Pink,Casual,Disney Kids Girl's Pink Pooh Kidswear,2706.jpg,http://assets.myntassets.com/v1/images/style/properties/9dfcd501502405f6befacbefbc8bec12_images.jpg
+2707,Girls,Apparel,Dress,Dresses,Pink,Casual,Disney Kids Girl's Dress Pink Pooh Kidswear,2707.jpg,http://assets.myntassets.com/v1/images/style/properties/b65078ba0112f107d024a4e3c028c38b_images.jpg
+2708,Girls,Apparel,Dress,Dresses,White,Casual,Disney Kids Girl's White Dress Pooh Kidswear,2708.jpg,http://assets.myntassets.com/v1/images/style/properties/43bebe24a5aeacfbef2201f0ba264fc4_images.jpg
+2710,Girls,Apparel,Dress,Dresses,White,Casual,Disney Kids Girl's White Daisy Kidswear,2710.jpg,http://assets.myntassets.com/v1/images/style/properties/c5cf3357d4dcd6b2cf1f9d45f8e2ce5f_images.jpg
+2711,Girls,Apparel,Dress,Dresses,Pink,Casual,Disney Kids Girl's Halter Neck Pink Kidswear,2711.jpg,http://assets.myntassets.com/v1/images/style/properties/fc6d2b58d0eeb683f893d94381128dba_images.jpg
+2712,Girls,Apparel,Dress,Dresses,Blue,Casual,Disney Kids Girl's Halter Neck Blue Kidswear,2712.jpg,http://assets.myntassets.com/v1/images/style/properties/45c9d2be693087317f84042fc4edcced_images.jpg
+2714,Boys,Apparel,Topwear,Tshirts,Red,Casual,Disney Kids Boy's Red Goofy Surf Kidswear,2714.jpg,http://assets.myntassets.com/v1/images/style/properties/fcd278eaeace3cd6d3e6b8b13265fa2a_images.jpg
+2715,Girls,Apparel,Topwear,Tops,Orange,Casual,Disney Kids Girl's Minnie Orange Stripped Kidswear,2715.jpg,http://assets.myntassets.com/v1/images/style/properties/72dac0cf10225d04f75b8c123a47156b_images.jpg
+2719,Boys,Apparel,Bottomwear,Trousers,Blue,Casual,Disney Kids Boy's Tiger Print Denim Pants,2719.jpg,http://assets.myntassets.com/v1/images/style/properties/4ebefa2291984ff0ffab0d1f11120248_images.jpg
+2720,Boys,Apparel,Bottomwear,Trousers,Blue,Casual,Disney Kids Boy's Mickey Mouse Print Pants,2720.jpg,http://assets.myntassets.com/v1/images/style/properties/5f3939466abc9b4a64283f499e1fe3be_images.jpg
+2722,Boys,Apparel,Bottomwear,Shorts,Blue,Casual,Disney Kids Boy's Denim Mickey Surf Kidswear,2722.jpg,http://assets.myntassets.com/v1/images/style/properties/2b55b35074d1847bed5607f923575507_images.jpg
+2724,Boys,Apparel,Topwear,Tshirts,White,Casual,Disney Kids Boy's White Red Kidswear,2724.jpg,http://assets.myntassets.com/v1/images/style/properties/427d553013d806dd69f5865fcdd2bda6_images.jpg
+2727,Boys,Apparel,Topwear,Tshirts,Yellow,Casual,Disney Kids Boy's Yellow Polo Tshirt,2727.jpg,http://assets.myntassets.com/v1/images/style/properties/da1282cf7f5350e618bab769df05d0c0_images.jpg
+2738,Boys,Apparel,Topwear,Tshirts,White,Casual,Disney Kids Boy's Double Fun Kidswear,2738.jpg,http://assets.myntassets.com/v1/images/style/properties/98e2cbda9777f1f29169df99f43d52d4_images.jpg
+2746,Boys,Apparel,Topwear,Tshirts,Yellow,Casual,Disney Kids Boy's Yellow Polo Tshirt,2746.jpg,http://assets.myntassets.com/v1/images/style/properties/4d9fe3fa84adc4a70eb29d4b4df44b7c_images.jpg
+2872,Women,Footwear,Shoes,Heels,Brown,Casual,Catwalk Women Leather Flats,2872.jpg,http://assets.myntassets.com/v1/images/style/properties/4d90e05b9e99e203b3ce191439619bcb_images.jpg
+2874,Women,Footwear,Shoes,Heels,Black,Casual,Catwalk Women Black Heels,2874.jpg,http://assets.myntassets.com/v1/images/style/properties/Catwalk-Women-Party-Collection-Black-Sandal_c2123218f8a47cfeadcdcee58c8a2bcc_images.jpg
+2880,Women,Footwear,Shoes,Heels,Grey,Formal,Catwalk Women Leather Formal Grey Heels,2880.jpg,http://assets.myntassets.com/v1/images/style/properties/8a26ede7aff18660f1f94a88e7d29fb9_images.jpg
+2886,Women,Footwear,Shoes,Flats,Brown,Casual,Catwalk Women Leather Brown Flats,2886.jpg,http://assets.myntassets.com/v1/images/style/properties/94a9deea53125663d9bbe61cb38b84b4_images.jpg
+2887,Women,Footwear,Shoes,Heels,Beige,Casual,Catwalk Women Black Ballerinas,2887.jpg,http://assets.myntassets.com/v1/images/style/properties/be6ffa0b5e8e20e319326fc6b28f0cd4_images.jpg
+2888,Women,Footwear,Shoes,Heels,Brown,Casual,Catwalk Women Wedding Heeled Bronze Heels,2888.jpg,http://assets.myntassets.com/v1/images/style/properties/099e8242ba7479b2eca56824293bbfb2_images.jpg
+2889,Women,Footwear,Shoes,Heels,Brown,Casual,Catwalk Women Leather Cutshoe Brown Flats,2889.jpg,http://assets.myntassets.com/v1/images/style/properties/45922b1a8128dc3373f2e597d48bdcd4_images.jpg
+3322,Boys,Apparel,Topwear,Tshirts,Blue,Sports,KKR Boys Fangear Polo Jersey,3322.jpg,http://assets.myntassets.com/v1/images/style/properties/KKR-Boys-Fangear-Polo-Jersey_c57446313d4ab98c58239852f8ff89ef_images.jpg
+3324,Boys,Apparel,Topwear,Tshirts,Blue,Sports,KKR Boys Fangear Tee,3324.jpg,http://assets.myntassets.com/v1/images/style/properties/90ee2e925d4247254bfa867b8f81f30b_images.jpg
+3332,Boys,Apparel,Topwear,Tshirts,Red,Sports,RCB Boys Fangear Tee,3332.jpg,http://assets.myntassets.com/v1/images/style/properties/RCB-Boys-Fangear-Tee_683b90b0495d687abcd704bcca10cd00_images.jpg
